@@ -1,0 +1,60 @@
+/* App.css */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  background-color: #cc0000;
+}
+
+button.add-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button.add-button:hover {
+  background-color: #45a049;
+}
